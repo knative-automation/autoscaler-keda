@@ -1,6 +1,6 @@
 module knative.dev/autoscaler-keda
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
@@ -9,15 +9,15 @@ require (
 	github.com/kedacore/keda/v2 v2.16.1
 	github.com/prometheus/client_golang v1.24.1
 	github.com/tsenart/vegeta/v12 v12.13.0
-	golang.org/x/sync v0.22.0
-	k8s.io/api v0.35.8
-	k8s.io/apimachinery v0.35.8
-	k8s.io/client-go v0.35.8
-	k8s.io/code-generator v0.35.8
-	knative.dev/hack v0.0.0-20260428014158-b2a37f1b6e7b
-	knative.dev/networking v0.0.0-20260921014731-e39778429a0f
-	knative.dev/pkg v0.0.0-20260918182429-5dc1978f0042
-	knative.dev/serving v0.50.1-0.20260825144834-618b0c275af1
+	golang.org/x/sync v0.23.0
+	k8s.io/api v0.36.5
+	k8s.io/apimachinery v0.36.5
+	k8s.io/client-go v0.36.5
+	k8s.io/code-generator v0.36.5
+	knative.dev/hack v0.0.0-20261013205032-c7ef19b7f274
+	knative.dev/networking v0.0.0-20261013205033-faf17add206e
+	knative.dev/pkg v0.0.0-20261013193643-0795cb87d2bd
+	knative.dev/serving v0.50.1-0.20261016050429-a5a712d183fc
 )
 
 require (
@@ -26,7 +26,7 @@ require (
 	github.com/blendle/zapdriver v1.3.1 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
+	github.com/emicklei/go-restful/v3 v3.13.0 // indirect
 	github.com/evanphx/json-patch/v5 v5.9.11 // indirect
 	github.com/expr-lang/expr v1.16.9 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
@@ -81,15 +81,15 @@ require (
 	go.uber.org/zap v1.28.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/exp v0.0.0-20250210185358-939b2ce775ac // indirect
-	golang.org/x/mod v0.39.0 // indirect
-	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/exp v0.0.0-20251219203646-944ab1f22d93 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
-	golang.org/x/term v0.45.0 // indirect
-	golang.org/x/text v0.41.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/term v0.46.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
-	golang.org/x/tools v0.49.0 // indirect
+	golang.org/x/tools v0.51.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.5.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260803160001-6ac0973c030d // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260803160001-6ac0973c030d // indirect
@@ -98,15 +98,15 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apiextensions-apiserver v0.35.8 // indirect
+	k8s.io/apiextensions-apiserver v0.36.5 // indirect
 	k8s.io/gengo/v2 v2.0.0-20250922181213-ec3ebc5fd46b // indirect
-	k8s.io/klog/v2 v2.130.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
-	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
-	knative.dev/caching v0.0.0-20260821014320-af6341f3ab2b // indirect
+	k8s.io/klog/v2 v2.140.0 // indirect
+	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
+	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 // indirect
+	knative.dev/caching v0.0.0-20261013205332-867712cfddb0 // indirect
 	sigs.k8s.io/controller-runtime v0.19.1 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
-	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v6 v6.3.3 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
